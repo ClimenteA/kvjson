@@ -29,6 +29,7 @@ func main() {
 	}
 
     // Next, in the main func initialize the "db" with a folder path
+	// Use `kvjson.DB` to get the types. Ex: `func someFunc(db kvjson.DB) {etc}` 
 	db := kvjson.New("./db")
 
     // Set a `key` with an initialized `struct`
@@ -60,9 +61,7 @@ func main() {
 	err = db.Del("car")
     if err != nil {
 		panic(err)
-	}
 }
-
 ```
 
 
