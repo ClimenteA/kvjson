@@ -1,5 +1,5 @@
 # KVJson
-Simple key/value store for Go using plain json files.
+Simple key/value persistent store for Go using plain json files.
 
 
 ## Install
